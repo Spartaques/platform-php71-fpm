@@ -25,8 +25,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/php_fpm_production/Dockerfile">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="480">
-              <caret line="32" column="109" selection-start-line="32" selection-start-column="109" selection-end-line="32" selection-end-column="109" />
+            <state relative-caret-position="442">
+              <caret line="39" lean-forward="true" selection-start-line="39" selection-end-line="39" />
             </state>
           </provider>
         </entry>
@@ -34,8 +34,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/php_fpm_dev/Dockerfile">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="342">
-              <caret line="23" column="32" selection-start-line="23" selection-start-column="32" selection-end-line="23" selection-end-column="32" />
+            <state relative-caret-position="405">
+              <caret line="27" column="35" lean-forward="true" selection-start-line="27" selection-start-column="35" selection-end-line="27" selection-end-column="35" />
             </state>
           </provider>
         </entry>
@@ -45,6 +45,10 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>npm</find>
+      <find>enable</find>
+      <find>dev</find>
+      <find>i</find>
+      <find>zoo</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -54,8 +58,8 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/php-fpm/Dockerfile" />
-        <option value="$PROJECT_DIR$/php_fpm_dev/Dockerfile" />
         <option value="$PROJECT_DIR$/php_fpm_production/Dockerfile" />
+        <option value="$PROJECT_DIR$/php_fpm_dev/Dockerfile" />
       </list>
     </option>
   </component>
@@ -130,12 +134,12 @@
       <option name="presentableId" value="Default" />
       <updated>1546940933652</updated>
       <workItem from="1546940935128" duration="1187000" />
-      <workItem from="1547024106100" duration="624000" />
+      <workItem from="1547024106100" duration="5436000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1811000" />
+    <option name="totallyTimeSpent" value="6623000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1680" height="1027" extended-state="0" />
@@ -176,15 +180,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/php_fpm_production/Dockerfile">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="32" column="109" selection-start-line="32" selection-start-column="109" selection-end-line="32" selection-end-column="109" />
+        <state relative-caret-position="442">
+          <caret line="39" lean-forward="true" selection-start-line="39" selection-end-line="39" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/php_fpm_dev/Dockerfile">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="23" column="32" selection-start-line="23" selection-start-column="32" selection-end-line="23" selection-end-column="32" />
+        <state relative-caret-position="405">
+          <caret line="27" column="35" lean-forward="true" selection-start-line="27" selection-start-column="35" selection-end-line="27" selection-end-column="35" />
         </state>
       </provider>
     </entry>

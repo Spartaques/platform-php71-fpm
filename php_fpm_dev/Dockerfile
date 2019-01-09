@@ -5,8 +5,12 @@ RUN apk add --no-cache --virtual .build-deps \
         make \
         autoconf \
     && apk add --no-cache \
+        libpng-dev \
+        imap-dev \
         nginx \
         nano \
+        zip \
+        unzip \
         supervisor \
         git \
         nodejs \
@@ -25,8 +29,10 @@ RUN apk add --no-cache --virtual .build-deps \
         && rm -r /tmp/zookeeper \
     &&  docker-php-ext-install \
         pdo_mysql \
+        gd \
+        zip \
+        imap \
     && docker-php-ext-enable \
         zookeeper \
-        pdo_mysql \
     && curl -s https://getcomposer.org/installer | php -- --install-dir=/usr/local/bin/ --filename=composer \
     && apk del .build-deps
