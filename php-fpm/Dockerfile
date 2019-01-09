@@ -24,9 +24,13 @@ RUN apk add --no-cache --virtual .build-deps \
         && pecl install zookeeper \
         && rm -r /tmp/zookeeper \
     &&  docker-php-ext-install \
+        opcache \
         pdo_mysql \
     && docker-php-ext-enable \
         zookeeper \
+        opcache \
         pdo_mysql \
-    && curl -s https://getcomposer.org/installer | php -- --install-dir=/usr/local/bin/ --filename=composer \
     && apk del .build-deps
+
+
+  RUN mv "$PHP_INI_DIR/php.ini-production" "$PHP_INI_DIR/php.ini"

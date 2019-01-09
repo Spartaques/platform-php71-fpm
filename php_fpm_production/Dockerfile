@@ -30,4 +30,5 @@ RUN apk add --no-cache --virtual .build-deps \
         zookeeper \
         opcache \
         pdo_mysql \
+    && curl -s https://getcomposer.org/installer | php -- --install-dir=/usr/local/bin/ --filename=composer \
     && apk del .build-deps
